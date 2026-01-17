@@ -21,6 +21,39 @@ This project focuses on **correct light transport**, **material realism**, and *
 
 ---
 
+# Framework Dependency Notice
+
+Important:
+This project is implemented on top of a **course-provided rendering framework** supplied by the instructor.
+Due to **copyright and academic usage restrictions**, the framework source code is **not included in this repository**.
+
+As a result, this repository **does not build or run standalone** when cloned.
+
+All source files included here represent **my original work**, including ray traversal, intersection logic, shading models, sampling strategies, and global illumination integrators.
+The omitted framework primarily provides scene loading, math utilities, image output, and assignment scaffolding.
+
+This repository is intended for **code review and portfolio evaluation**, rather than direct execution.
+
+### 🧠 Scope of Implementation
+
+The following components were implemented by me:
+
+- Ray–primitive intersection
+- Recursive reflection and refraction
+- Fresnel effects
+- Monte Carlo path tracing
+- Photon mapping
+- Sampling and recursion control
+
+The following were provided by the course framework:
+
+- Scene parsing and asset loading
+- Image output and file I/O
+- Math and utility scaffolding
+- Assignment harness
+
+---
+
 ## Features
 
 ### Core Ray Tracing
@@ -100,6 +133,8 @@ RayTracer.exe scene.xml --mitchell
 
 * To render with Lanczos Filter:
 RayTracer.exe scene.xml --lanczos
+
+### Note: Build instructions assume access to the course framework, which is not publicly distributable.
 
 ---
 
