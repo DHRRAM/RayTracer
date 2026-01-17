@@ -1,13 +1,13 @@
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/caf1f554-f979-4e77-8721-65cbcaf9b617" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8eb49855-3794-42b5-85d9-1210d968205f" />
 Warm version. Resolution: 1920 x 1080. Render Time: 3:04:49. Min samples: 128. Max samples: 1024. OIDN applied. Modeled in Houdini. Cereal is done with RBD.
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b286abe1-866e-442f-8cee-22801aa7ef2c" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7a92fb82-1f59-42b6-b172-53a52414db88" />
 Cool Version. Resolution: 1920 x 1080. Render Time: 02:45:11. Min samples: 128. Max samples: 1024. OIDN applied. Modeled in Houdini. Cereal is done with RBD.
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2cc63de5-ba11-4d4f-8ef3-95481c54723c" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/69f2dbac-6e48-4399-8db8-62cdb5a17fe6" />
 Samples (Adaptive Sampling with Min: 128, Max: 1024)
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/83fdc5d4-f656-4091-85ca-ad3d76d576ea" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/79eaf7a4-e571-439e-ba28-3573543ad136" />
 Zbuffer
 
 Ray Tracer README
