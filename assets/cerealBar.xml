@@ -1,0 +1,275 @@
+<xml>
+  <scene>
+    <!-- Objects -->
+    
+    <object type="obj" name="objects/teapots.obj" material="glass">
+    </object>
+    <object type="obj" name="objects/teapotLogos.obj" material="logo">
+    </object>
+    
+    <object type="obj" name="objects/roundPlates.obj" material="porcelain">
+    </object>
+    <object type="obj" name="objects/squarePlates.obj" material="porcelain">
+    </object>
+    <object type="obj" name="objects/spoons.obj" material="metal">
+    </object>
+    <object type="obj" name="objects/bowls.obj" material="porcelain">
+    </object>
+  
+    <object type="obj" name="objects/fruitLoopsRed.obj" material="fruitLoopsRed">
+    </object>
+    <object type="obj" name="objects/fruitLoopsBlue.obj" material="fruitLoopsBlue">
+    </object>
+    <object type="obj" name="objects/fruitLoopsGreen.obj" material="fruitLoopsGreen">
+    </object>
+    <object type="obj" name="objects/fruitLoopsYellow.obj" material="fruitLoopsYellow">
+    </object>
+    <object type="obj" name="objects/fruitLoopsPurple.obj" material="fruitLoopsPurple">
+    </object>
+    <object type="obj" name="objects/fruitLoopsOrange.obj" material="fruitLoopsOrange">
+    </object>
+    <object type="obj" name="objects/cocoaPuffs.obj" material="cocoaPuffs">
+    </object>
+    <object type="obj" name="objects/frostedFlakes.obj" material="frostedFlakes">
+    </object>
+    <object type="obj" name="objects/cookieCrispsCookies.obj" material="cookieCrisps">
+    </object>
+    <object type="obj" name="objects/cookieCrispsChips.obj" material="cocoaPuffs">
+    </object>
+    <object type="obj" name="objects/chex.obj" material="chex">
+    </object>
+  
+    <object type="obj" name="objects/table.obj" material="table">
+    </object>
+    <object type="obj" name="objects/windowFramePillar.obj" material="plastic">
+    </object>
+    <object type="obj" name="objects/windowPanes.obj" material="glass">
+    </object>
+    <object type="obj" name="objects/backWall.obj" material="table">
+    </object>
+    <object type="obj" name="objects/bgPlate.obj" material="bgPlate">
+    </object>
+    <!--
+    <object type="obj" name="objects/HDRIbox.obj" material="metal">
+    </object>
+    -->
+
+    <!-- Materials -->
+    <material type="blinn" name="glass">
+      <diffuse value="0"/>
+      <specular value="0"/>
+      <glossiness value="100000"/>
+      <refraction value="1" index="1.5"/>
+      <emission value="0"/>
+      <absorption r="0.75" g="0.15" b="0.15"/>
+    </material>
+    <material type="blinn" name="logo">
+      <diffuse  r="0.75" g="0.0" b="0.0" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <glossiness value="500"/>
+      <emission r="0.75" g="0.0" b="0.0" value="0"/>
+    </material>
+    <material type="blinn" name="porcelain">
+      <diffuse r="1" g="1" b="1" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <glossiness value="1000"/>
+      <reflection value="0.3"/>
+      <emission value="0"/>
+    </material>
+    <material type="blinn" name="metal">
+      <diffuse r="0.05" g="0.05" b="0.05" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <glossiness value="300"/>
+      <reflection value="1"/>
+      <emission value="0"/>
+    </material>
+    <material type="blinn" name="fruitLoopsRed">
+      <diffuse r="0.677" g="0.033173" b="0.033173" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="fruitLoopsBlue">
+      <diffuse r="0.079827" g="0.451" b="0.451" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="fruitLoopsGreen">
+      <diffuse r="0.213105" g="0.523" b="0.100416" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="fruitLoopsYellow">
+      <diffuse r="0.735" g="0.735" b="0.09849" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="fruitLoopsOrange">
+      <diffuse r="1" g="0.366667" b="0.0" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="fruitLoopsPurple">
+      <diffuse r="0.11" g="0.06" b="0.5" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="cocoaPuffs">
+      <diffuse r="0.169" g="0.0337437" b="0.00338" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="3"/>
+    </material>
+    <material type="blinn" name="frostedFlakes">
+      <diffuse r="0.884" g="0.475592" b="0.125645" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="200"/>
+      <bump texture="textures/bumpMap.png" value="2"/>
+    </material>
+    <material type="blinn" name="cookieCrisps">
+      <diffuse r="0.826" g="0.480732" b="0.28084" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="300"/>
+      <bump texture="textures/bumpMap.png" value="5"/>
+    </material>
+    <material type="blinn" name="chex">
+      <diffuse r="1" g="0.5695" b="0.262" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <emission value="0"/>
+      <glossiness value="100"/>
+      <bump texture="textures/bumpMap.png" value="1"/>
+    </material>
+    <material type="blinn" name="table">
+      <diffuse r="0.689" g="0.0918667" b="0.0" value="1"/>
+      <specular r="1" g="1" b="1" value="1"/>
+      <glossiness value="500"/>
+      <emission value="0"/>
+    </material>
+    <material type="blinn" name="plastic">
+      <diffuse r="0.01764" g="0.0275707" b="0.02" value="1"/>
+      <specular r="1" g="1" b="1" value="0.3"/>
+      <glossiness value="500"/>
+      <emission value="0"/>
+    </material>
+    <material type="blinn" name="bgPlate">
+      <diffuse r="1" g="1" b="1" texture="textures/bgPlate.png" value="1">
+        <scale x="1" y="-1" z="1"/>
+      </diffuse>
+      <specular r="0" g="0" b="0" value="0"/>
+      <glossiness value="1"/>
+      <emission r="1" g="1" b="1" texture="textures/bgPlate.png" value="1">
+        <scale x="1" y="-1" z="1"/>
+      </emission>
+    </material>
+    
+    <!-- Environment lighting -->
+    <environment texture="textures/alps_field_1k.hdr" r="0.5" g="0.6" b="0.7" value="5">
+      <rotate angle="180" x="1"/>
+      <rotate angle="90" y="1"/>
+      <rotate angle="30" z="1"/>
+      <scale value="30"/>
+    </environment>
+    
+    <!-- Lights -->
+    <light type="point" name="first_light">
+      <intensity r="1" g="0.549925" b="0.235" value="5"/>
+      <position x="1.9" y="6" z="2.9"/>
+	  <size value="1"/>
+	  <attenuation value="1"/>
+    </light>
+
+    <light type="point" name="second_light">
+      <intensity r="1" g="0.549925" b="0.235" value="5"/>
+      <position x="-0.8" y="8" z="0.1"/>
+	  <size value="1"/>
+	  <attenuation value="1"/>
+    </light>
+
+    <light type="point" name="third_light">
+      <intensity r="1" g="0.549925" b="0.235" value="5"/>
+      <position x="1.1" y="6" z="-2.2"/>
+	  <size value="1"/>
+	  <attenuation value="1"/>
+    </light>
+  </scene>
+
+  <camera gamma="sRGB">
+    <position x="-1.6766" y="0.6769" z="4.6929"/>
+    <target x="0.8800" y="0.3022" z="0.0000"/>
+    <up x="0" y="1" z="0"/>
+    <fov value="24"/>
+    <focaldist value="3.5"/>
+    <dof value="0.02"/>
+    <width value="1920"/>
+    <height value="1080"/>
+
+	<!-- Generated camera animation keyframes -->
+  <!--
+	<keyframe time="0.000">
+		<position x="-1.7003" y="0.6923" z="4.6929"/>
+		<target x="0.8800" y="0.3022" z="0.0000"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="1.111">
+		<position x="-1.6780" y="0.6889" z="4.4929"/>
+		<target x="0.8800" y="0.3022" z="-0.1833"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="2.222">
+		<position x="-1.7064" y="0.6497" z="4.2929"/>
+		<target x="0.8800" y="0.3022" z="-0.3666"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="3.333">
+		<position x="-1.6706" y="0.6870" z="4.0929"/>
+		<target x="0.8800" y="0.3022" z="-0.5499"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="4.444">
+		<position x="-1.6782" y="0.6762" z="3.8929"/>
+		<target x="0.8800" y="0.3022" z="-0.7332"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="5.556">
+		<position x="-1.6967" y="0.6631" z="3.6929"/>
+		<target x="0.8800" y="0.3022" z="-0.9165"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="6.667">
+		<position x="-1.7351" y="0.6544" z="3.4929"/>
+		<target x="0.8800" y="0.3022" z="-1.0998"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="7.778">
+		<position x="-1.6889" y="0.6860" z="3.2929"/>
+		<target x="0.8800" y="0.3022" z="-1.2831"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="8.889">
+		<position x="-1.6832" y="0.6734" z="3.0929"/>
+		<target x="0.8800" y="0.3022" z="-1.4664"/>
+		<fov value="24.00"/>
+	</keyframe>
+	<keyframe time="10.000">
+		<position x="-1.6486" y="0.6643" z="2.8929"/>
+		<target x="0.8800" y="0.3022" z="-1.6497"/>
+		<fov value="24.00"/>
+	</keyframe>
+  -->
+</camera> 
+
+</xml>
